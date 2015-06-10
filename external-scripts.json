@@ -10,5 +10,7 @@
   "hubot-rules",
   "hubot-maps",
   "hubot-travis-ci",
+  "hubot-seen",
+  "hubot-plusplus",
   "hubot-shipit"
 ]
