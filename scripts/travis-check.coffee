@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot travis me <user>/<repo> - Returns the build status of https://github.com/<user>/<repo>
+#   hubot travis check <user>/<repo> - Returns the build status of https://github.com/<user>/<repo>
 #
 # URLS:
 #   POST /hubot/travis?room=<room>[&type=<type]
@@ -24,7 +24,7 @@ querystring = require('querystring')
 
 module.exports = (robot) ->
 
-  robot.respond /travis me (.*)/i, (msg) ->
+  robot.respond /travis check (.*)/i, (msg) ->
     project = escape(msg.match[1])
     msg.http("https://api.travis-ci.org/repos/#{project}")
       .get() (err, res, body) ->
