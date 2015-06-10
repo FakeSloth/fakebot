@@ -9,7 +9,7 @@
 #
 # Commands:
 #   hubot travis me <user>/<repo> - Returns the build status of https://github.com/<user>/<repo>
-# 
+#
 # URLS:
 #   POST /hubot/travis?room=<room>[&type=<type]
 #     - for XMPP servers (such as HipChat) this is the XMPP room id which has the form id@server
@@ -23,8 +23,8 @@ url = require('url')
 querystring = require('querystring')
 
 module.exports = (robot) ->
-  
-  robot.respond /travis me (.*)/i, (msg) ->
+
+  robot.respond /travis check (.*)/i, (msg) ->
     project = escape(msg.match[1])
     msg.http("https://api.travis-ci.org/repos/#{project}")
       .get() (err, res, body) ->
@@ -50,7 +50,7 @@ module.exports = (robot) ->
 
     catch error
       console.log "travis hook error: #{error}. Payload: #{req.body.payload}"
-     
+
     res.end JSON.stringify {
       send: true #some client have problems with and empty response, sending that response ion sync makes debugging easier
     }
