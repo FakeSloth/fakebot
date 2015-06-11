@@ -12,5 +12,6 @@
   "hubot-rules",
   "hubot-seen",
   "hubot-shipit",
+  "hubot-reaction",
   "hubot-travis-ci"
 ]
