@@ -1,6 +1,7 @@
 [
   "hubot-ambush",
   "hubot-diagnostics",
+  "hubot-github-todos",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-help",
@@ -8,10 +9,10 @@
   "hubot-maps",
   "hubot-plusplus",
   "hubot-pugme",
+  "hubot-reaction",
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-seen",
   "hubot-shipit",
-  "hubot-reaction",
   "hubot-travis-ci"
 ]
