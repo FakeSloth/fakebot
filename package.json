@@ -8,7 +8,6 @@
     "hubot": "^2.13.1",
     "hubot-ambush": "0.0.3",
     "hubot-diagnostics": "0.0.1",
-    "hubot-github-todos": "^0.4.0",
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
