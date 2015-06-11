@@ -19,7 +19,6 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.1",
     "hubot-seen": "^0.2.2",
-    "hubot-sentimental": "^1.0.5",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.3.0",
     "hubot-travis-ci": "0.0.2"
