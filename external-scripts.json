@@ -12,5 +12,6 @@
   "hubot-travis-ci",
   "hubot-seen",
   "hubot-plusplus",
+  "hubot-github-todos",
   "hubot-shipit"
 ]
