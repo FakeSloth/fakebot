@@ -1,17 +1,18 @@
 [
+  "hubot-ambush",
   "hubot-diagnostics",
-  "hubot-help",
-  "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
-  "hubot-pugme",
+  "hubot-help",
+  "hubot-heroku-keepalive",
   "hubot-maps",
+  "hubot-plusplus",
+  "hubot-pugme",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-maps",
-  "hubot-travis-ci",
   "hubot-seen",
-  "hubot-plusplus",
-  "hubot-github-todos",
-  "hubot-shipit"
+  "hubot-sentimental",
+  "hubot-shipit",
+  "hubot-todo",
+  "hubot-travis-ci"
 ]

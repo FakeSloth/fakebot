@@ -6,8 +6,8 @@
   "description": "A hubot for our slack.com setup",
   "dependencies": {
     "hubot": "^2.13.1",
+    "hubot-ambush": "0.0.3",
     "hubot-diagnostics": "0.0.1",
-    "hubot-github-todos": "^0.4.0",
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
@@ -19,6 +19,7 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.1",
     "hubot-seen": "^0.2.2",
+    "hubot-sentimental": "^1.0.5",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.3.0",
     "hubot-travis-ci": "0.0.2"
