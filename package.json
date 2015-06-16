@@ -1,9 +1,11 @@
 {
   "name": "fakebot",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
   "author": "Logan Saunders <timandmoby@gmail.com>",
   "description": "A hubot for our slack.com setup",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "hubot": "^2.13.1",
     "hubot-ambush": "0.0.3",
@@ -25,5 +27,9 @@
   },
   "engines": {
     "node": "0.10.x"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
   }
 }
