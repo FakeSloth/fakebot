@@ -31,5 +31,21 @@
   "devDependencies": {
     "chai": "^3.0.0",
     "mocha": "^2.2.5"
-  }
+  },
+  "main": "bin/hubot",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FakeSloth/fakebot.git"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/FakeSloth/fakebot/issues"
+  },
+  "homepage": "https://github.com/FakeSloth/fakebot#readme"
 }
