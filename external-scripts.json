@@ -12,5 +12,6 @@
   "hubot-rules",
   "hubot-seen",
   "hubot-shipit",
-  "hubot-travis-ci"
+  "hubot-travis-ci",
+  "hubot-trello"
 ]
