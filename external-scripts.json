@@ -1,6 +1,7 @@
 [
   "hubot-ambush",
   "hubot-diagnostics",
+  "hubot-github-event-announcer",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-help",
